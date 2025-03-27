@@ -1,0 +1,183 @@
+- type: species
+  id: KcKobold
+  name: species-name-kckobold
+  roundStart: true
+  prototype: MobKcKobold
+  sprites: MobKcKoboldSprites
+  defaultSkinTone: "#34a223"
+  markingLimits: MobKcKoboldMarkingLimits
+  dollPrototype: MobKcKoboldDummy
+  skinColoration: Hues
+  maleFirstNames: names_reptilian_male
+  femaleFirstNames: names_reptilian_female
+  naming: FirstDashFirst
+  minHeight: 0.7
+  defaultHeight: 0.8
+  maxHeight: 0.9
+  minWidth: 0.7
+  defaultWidth: 0.85
+  maxWidth: 0.95
+
+- type: speciesBaseSprites
+  id: MobKcKoboldSprites
+  sprites:
+    Head: MobKcKoboldHead
+    Face: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Underwear: MobHumanoidAnyMarking
+    Undershirt: MobHumanoidAnyMarking
+    Chest: MobKcKoboldTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobKcKoboldLArm
+    RArm: MobKcKoboldRArm
+    LHand: MobKcKoboldLHand
+    RHand: MobKcKoboldRHand
+    LLeg: MobKcKoboldLLeg
+    RLeg: MobKcKoboldRLeg
+    LFoot: MobKcKoboldLFoot
+    RFoot: MobKcKoboldRFoot
+
+- type: markingPoints
+  id: MobKcKoboldMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ KcKoboldTailSmooth ]
+    Snout:
+      points: 1
+      required: true
+      defaultMarkings: [ KcKoboldSnoutRound ]
+    HeadTop:
+      points: 6
+      required: false
+    HeadSide:
+      points: 6
+      required: false
+    Chest:
+      points: 6
+      required: false
+    Underwear:
+      points: 1
+      required: false
+    Undershirt:
+      points: 1
+      required: false
+    RightLeg:
+      points: 6
+      required: false
+    RightFoot:
+      points: 6
+      required: false
+    LeftLeg:
+      points: 6
+      required: false
+    LeftFoot:
+      points: 6
+      required: false
+    RightArm:
+      points: 6
+      required: false
+    RightHand:
+      points: 6
+      required: false
+    LeftArm:
+      points: 6
+      required: false
+    LeftHand:
+      points: 6
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldHead
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldTorso
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldLLeg
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldLHand
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldLArm
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldLFoot
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldRLeg
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldRHand
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldRArm
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobKcKoboldRFoot
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_foot

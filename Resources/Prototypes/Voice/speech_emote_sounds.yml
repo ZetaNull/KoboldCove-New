@@ -34,6 +34,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: FemaleHuman
@@ -70,6 +72,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: MaleReptilian
@@ -106,6 +110,8 @@
       collection: Snores
     Sigh:
       collection: MaleSigh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: FemaleReptilian
@@ -142,6 +148,8 @@
       collection: Snores
     Sigh:
       collection: FemaleSigh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: MaleSlime
@@ -180,6 +188,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: FemaleSlime
@@ -218,6 +228,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: MaleShadowkin
@@ -260,6 +272,8 @@
       collection: Mars
     Wurble:
       collection: Wurble
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: FemaleShadowkin
@@ -302,6 +316,8 @@
       collection: Mars
     Wurble:
       collection: Wurble
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexVox
@@ -338,6 +354,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexDiona
@@ -374,6 +392,8 @@
       collection: MaleCry
     Whistle:
       collection: Whistles
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexArachnid
@@ -416,6 +436,8 @@
       collection: MaleCry
     Whistle:
       collection: Whistles
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexDwarf
@@ -453,6 +475,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: FemaleDwarf
@@ -490,6 +514,8 @@
       collection: Whistles
     Weh:
       collection: Weh
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexMoth
@@ -532,6 +558,8 @@
       collection: MaleCry
     Whistle:
       collection: Whistles
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexIPC
@@ -596,6 +624,8 @@
       collection: IPCWhirrs
       params:
         variation: 0
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexSilicon
@@ -640,6 +670,8 @@
       path: /Audio/Items/bikehorn.ogg
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 - type: emoteSounds
   id: UnisexSiliconSyndicate
@@ -682,6 +714,8 @@
       path: /Audio/Items/bikehorn.ogg
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
+    BrotherScream:
+      collection: KoboldBrotherScream
 
 # body emotes
 - type: emoteSounds

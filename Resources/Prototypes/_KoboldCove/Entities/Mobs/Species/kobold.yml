@@ -1,0 +1,93 @@
+- type: entity
+  save: false
+  name: Urist McBrother
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobKcKobold
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: KcKobold
+  - type: Hunger
+  - type: Puller
+    needsHands: false
+  - type: Thirst
+  - type: Carriable # Carrying system from nyanotrasen.
+  - type: Icon
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: full
+  - type: Body
+    prototype: KcKobold
+    requiredLegs: 2
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatLizard
+      amount: 5
+  - type: Inventory
+    speciesId: kckobold
+  - type: LizardAccent
+  - type: Speech
+    speechSounds: KcKobold
+    speechVerb: KcKobold
+  - type: TypingIndicator
+    proto: lizard
+  - type: Vocal
+    sounds:
+      Male: MaleKcKobold
+      Female: FemaleKcKobold
+      Unsexed: MaleKcKobold
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Scale
+  - type: MeleeWeapon
+    soundHit:
+      collection: AlienClaw
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5
+  - type: Temperature
+    heatDamageThreshold: 400
+    coldDamageThreshold: 285
+    currentTemperature: 310.15
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 0.1 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.5 #per second, scales with temperature & other constants
+  - type: TemperatureSpeed
+    thresholds:
+      301: 0.8
+      295: 0.6
+      285: 0.4
+  - type: Wagging
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Draconic
+    understands:
+    - TauCetiBasic
+    - Draconic
+  - type: FootPrints
+    leftBarePrint: "footprint-left-bare-lizard"
+    rightBarePrint: "footprint-right-bare-lizard"
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - UnathiEmotes
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobKcKoboldDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy kobold meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: KcKobold
+
+#Weh

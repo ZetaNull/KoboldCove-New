@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: KcKobold
+  saySound:
+    collection: KcKoboldSay
+  askSound:
+    collection: KcKoboldAsk
+  exclaimSound:
+    collection: KcKoboldExclaim

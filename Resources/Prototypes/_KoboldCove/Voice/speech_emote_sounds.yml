@@ -1,0 +1,75 @@
+- type: emoteSounds
+  id: MaleKcKobold
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_KoboldCove/Voice/Kobold/koboldscream.ogg
+    Laugh:
+      collection: KcKoboldLaugh
+    Honk:
+      collection: BikeHorn
+    Whistle:
+      collection: Whistles
+    Crying:
+      collection: MaleCry
+    Weh:
+      collection: Weh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: MaleYawn
+    Snore:
+      collection: Snores
+    Sigh:
+      collection: MaleSigh
+    BrotherScream:
+      collection: KoboldBrotherScream
+
+- type: emoteSounds
+  id: FemaleKcKobold
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_KoboldCove/Voice/Kobold/koboldscream.ogg
+    Laugh:
+      collection: KcKoboldLaugh
+    Honk:
+      collection: BikeHorn
+    Whistle:
+      collection: Whistles
+    Crying:
+      collection: FemaleCry
+    Weh:
+      collection: Weh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: FemaleYawn
+    Snore:
+      collection: Snores
+    Sigh:
+      collection: FemaleSigh
+    BrotherScream:
+      collection: KoboldBrotherScream
