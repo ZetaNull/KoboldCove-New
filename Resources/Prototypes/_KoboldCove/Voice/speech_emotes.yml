@@ -1,0 +1,15 @@
+# vocal emotes
+- type: emote
+  id: BrotherScream
+  name: chat-emote-name-brotherscream
+  category: Vocal
+  icon: Interface/Emotes/scream.png
+  whitelist:
+    components:
+    - Vocal
+  chatMessages: [shouts BROTHER!]
+  chatTriggers:
+    - shouts brother!
+    - shouts brother
+    - brothers
+    - brother

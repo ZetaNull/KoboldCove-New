@@ -1,47 +1,47 @@
 - type: species
-  id: Reptilian
-  name: species-name-reptilian
-  roundStart: false
-  prototype: MobReptilian
-  sprites: MobReptilianSprites
+  id: KcKobold
+  name: species-name-kckobold
+  roundStart: true
+  prototype: MobKcKobold
+  sprites: MobKcKoboldSprites
   defaultSkinTone: "#34a223"
-  markingLimits: MobReptilianMarkingLimits
-  dollPrototype: MobReptilianDummy
+  markingLimits: MobKcKoboldMarkingLimits
+  dollPrototype: MobKcKoboldDummy
   skinColoration: Hues
   maleFirstNames: names_reptilian_male
   femaleFirstNames: names_reptilian_female
   naming: FirstDashFirst
   minHeight: 0.7
-  defaultHeight: 0.95
-  maxHeight: 1.25
-  minWidth: 0.65
-  defaultWidth: 0.95
-  maxWidth: 1.3
+  defaultHeight: 0.8
+  maxHeight: 0.9
+  minWidth: 0.7
+  defaultWidth: 0.85
+  maxWidth: 0.95
 
 - type: speciesBaseSprites
-  id: MobReptilianSprites
+  id: MobKcKoboldSprites
   sprites:
-    Head: MobReptilianHead
+    Head: MobKcKoboldHead
     Face: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Underwear: MobHumanoidAnyMarking
     Undershirt: MobHumanoidAnyMarking
-    Chest: MobReptilianTorso
+    Chest: MobKcKoboldTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
     Eyes: MobHumanoidEyes
-    LArm: MobReptilianLArm
-    RArm: MobReptilianRArm
-    LHand: MobReptilianLHand
-    RHand: MobReptilianRHand
-    LLeg: MobReptilianLLeg
-    RLeg: MobReptilianRLeg
-    LFoot: MobReptilianLFoot
-    RFoot: MobReptilianRFoot
+    LArm: MobKcKoboldLArm
+    RArm: MobKcKoboldRArm
+    LHand: MobKcKoboldLHand
+    RHand: MobKcKoboldRHand
+    LLeg: MobKcKoboldLLeg
+    RLeg: MobKcKoboldRLeg
+    LFoot: MobKcKoboldLFoot
+    RFoot: MobKcKoboldRFoot
 
 - type: markingPoints
-  id: MobReptilianMarkingLimits
+  id: MobKcKoboldMarkingLimits
   onlyWhitelisted: true
   points:
     Hair:
@@ -53,11 +53,11 @@
     Tail:
       points: 1
       required: true
-      defaultMarkings: [ LizardTailSmooth ]
+      defaultMarkings: [ KcKoboldTailSmooth ]
     Snout:
       points: 1
       required: true
-      defaultMarkings: [ LizardSnoutRound ]
+      defaultMarkings: [ KcKoboldSnoutRound ]
     HeadTop:
       points: 6
       required: false
@@ -99,85 +99,85 @@
       required: false
 
 - type: humanoidBaseSprite
-  id: MobReptilianHead
+  id: MobKcKoboldHead
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
-  id: MobReptilianHeadMale
+  id: MobKcKoboldHeadMale
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
-  id: MobReptilianHeadFemale
+  id: MobKcKoboldHeadFemale
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
-  id: MobReptilianTorso
+  id: MobKcKoboldTorso
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
-  id: MobReptilianTorsoMale
+  id: MobKcKoboldTorsoMale
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
-  id: MobReptilianTorsoFemale
+  id: MobKcKoboldTorsoFemale
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
-  id: MobReptilianLLeg
+  id: MobKcKoboldLLeg
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
-  id: MobReptilianLHand
+  id: MobKcKoboldLHand
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
-  id: MobReptilianLArm
+  id: MobKcKoboldLArm
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
-  id: MobReptilianLFoot
+  id: MobKcKoboldLFoot
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
-  id: MobReptilianRLeg
+  id: MobKcKoboldRLeg
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
-  id: MobReptilianRHand
+  id: MobKcKoboldRHand
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
-  id: MobReptilianRArm
+  id: MobKcKoboldRArm
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
-  id: MobReptilianRFoot
+  id: MobKcKoboldRFoot
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_foot

@@ -1,0 +1,6 @@
+- type: entity
+  save: false
+  name: Urist McKobold
+  suffix: Urist McBrother
+  parent: BaseMobKcKobold
+  id: MobKcKobold

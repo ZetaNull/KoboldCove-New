@@ -1,0 +1,32 @@
+- type: soundCollection
+  id: KoboldBrotherScream
+  files:
+    - /Audio/_KoboldCove/Voice/Kobold/brother1.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/brother2.ogg
+    
+- type: soundCollection
+  id: KcKoboldAsk
+  files:
+    - /Audio/_KoboldCove/Voice/Kobold/ask1.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/ask2.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/ask3.ogg
+
+- type: soundCollection
+  id: KcKoboldSay
+  files:
+    - /Audio/_KoboldCove/Voice/Kobold/say1.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/say2.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/say3.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/say4.ogg
+
+- type: soundCollection
+  id: KcKoboldExclaim
+  files:
+    - /Audio/_KoboldCove/Voice/Kobold/exclaim1.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/exclaim2.ogg
+
+- type: soundCollection
+  id: KcKoboldLaugh
+  files:
+    - /Audio/_KoboldCove/Voice/Kobold/laugh1.ogg
+    - /Audio/_KoboldCove/Voice/Kobold/laugh2.ogg
